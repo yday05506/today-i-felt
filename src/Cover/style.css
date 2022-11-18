@@ -1,0 +1,44 @@
+.cover {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: sans-serif;
+  width: 360px;
+  height: 360px;
+  border: solid 8px #000;
+  position: relative;
+  /* position: absolute;
+  left: 50%;
+  top: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.title>h1 {
+  font-size: 48px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 20px;
+}
+
+.owner-name {
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+  border-bottom: solid 2px #000;
+}
+
+.owner-name>input {
+  width: 10ch;
+  border: none;
+  margin-left: 1ch;
+  font-size: inherit;
+  text-align: right;
+}
+
+.owner-name>input:focus {
+  outline: none;
+}
