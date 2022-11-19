@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-// eslint-disable-next-line no-unused-vars
 import BtnMonth from '../components/BtnMonth';
 
 class FeelingList extends React.Component {
@@ -20,13 +19,10 @@ class FeelingList extends React.Component {
   renderBtnMonthList() {
     const btnList = [];
 
-    // eslint-disable-next-line no-plusplus
-    for (let i = 1; i < 12 + 1; i += 1) {
-      // eslint-disable-next-line react/destructuring-assignment, max-len
+    for (let i = 1; i < 13; i += 1) {
       const btn = (
         <BtnMonth
           month={i}
-          // eslint-disable-next-line react/destructuring-assignment
           active={this.state.selectedMonth === i}
           onClick={this.onClickBtnMonth}
         />

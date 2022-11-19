@@ -9,15 +9,19 @@
 }
 
 .title {
-  font-family: sans-serif;
   width: 360px;
   height: 360px;
   border: solid 8px #000;
   position: relative;
+  font-family: sans-serif;
+  /* border-style: solid;
+  border-width: 8px;
+  border-color: #000; */
+  /* 가운데에 놓는 방법 */
   /* position: absolute;
   left: 50%;
-  top: 50%; */
-  /* transform: translate(-50%, -50%); */
+  top: 50%;
+  transform: translate(-50%, -50%); */
 }
 
 .title>h1 {
@@ -25,6 +29,7 @@
   font-weight: bold;
   font-style: italic;
   margin-left: 20px;
+
 }
 
 .owner-name {
